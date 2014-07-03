@@ -15,7 +15,7 @@ $( document ).ready(function() {
 			{
 				content += '<p><a href="' + baseurl + links[index][0] + '">' + links[index][1] + '</a></p>';
 			}
-			$("#content").html(content);
+			$("#restricted").html(content);
 		}
 		else
 		{
